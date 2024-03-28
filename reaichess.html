@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            border:2px solid ;
+            background-color: blanchedalmond;
+           
+        }
+        .tr1{
+          transform: translate(100px);
+          display: none;
+        }
+        input:active ~ .tr1{
+        display: block;
+            transform: translatex(100px);
+           
+        }
+       
+        .tr2{
+            transform: translatey(100px);  
+            display: none; 
+        }
+        input:active ~ .tr2{
+        display: block;
+          
+        }
+        .b{
+          border: 2px solid; 
+          background-color: rgb(199, 147, 248); 
+
+        }
+        .tr3{
+            transform:scalex(-1.5);  
+            display: none;   
+        }
+        input:active ~ .tr3{
+        display: block;
+        transform:scalex(-1.5);  
+          
+        }
+        .tr4{
+            transform:scaley(-1.5);  
+            display: none;   
+        }
+        input:active ~ .tr4{
+        display: block;
+        transform:scaley(-1.5);  
+          
+        }
+        .c{
+           background-color: yellow;
+           border: 2px sold;
+          
+        }
+        .tr5{
+            display: none;
+            transform: skewx(45deg);
+        }
+        input:active ~ .tr5{
+           display:block ; 
+        }
+        .tr6{
+            display: none;
+            transform: skewy(45deg);  
+        }
+    input:active ~ .tr6{
+        display:block ; 
+    }
+    .d{
+        background-color: yellow;
+           border: 2px sold;  
+    }
+    .tr7{
+            display: none;
+            transform: rotatex(120deg);
+    }
+    input:active ~ .tr7{
+        display:block ; 
+    }
+    
+    .tr8{
+            display: none;
+            transform:rotatey(90deg);
+    }
+    input:active ~ .tr8{
+        display:block ; 
+    }
+    </style>
+</head>
+           display:block ; 
+<body style="text-align: center;">
+    
+    <pre style="color: brown; font-size: xx-large; background-color: aqua;">TRANSFORMS :-
+
+
+        1.TRANSLATE PROPERTY :-
+    </p>
+    <div class="a">
+        <u><p style="color:orangered ;">X-AXIS :-</p></u>
+        <liable for="tr1"></liable>
+        1.<input type="radio" id="name1" name="tr1">
+        <p class="tr1" style=" background-color: rgb(64, 0, 255);
+        border: 2px solid;
+        height: 200px;
+        width: 200px;">WELCOME</p> <br>
+        
+        <u><p style="color: rgb(56, 34, 197);">Y-AXIS :-</p></u>
+        <liable for="tr2"></liable>
+        2.<input  type="radio" id="name2" name="tr2">
+<p class="tr2" style="background-color: blue; color: rgb(0, 255, 72); border:2px solid;height: 150px;width: 150px;">TO</p>
+    </div>
+    2.SCALE PROPERTY :-
+    
+<div class="b">
+<liable for="tr3"></liable>
+X -AXIS :-<br>
+   1. <input type="radio" id="name3" name="tr3" >
+   <p class="tr3"  for="name3" style="background-color: brown; color: red; height: 150px; width: 200px;">10000 coders</p>
+
+   <liable for="tr4"></liable>
+Y -AXIS :-<br>
+   1. <input type="radio" id="name4" name="tr4">
+   <p class="tr4" for="name4" style="background-color: brown; color: red; height: 150px; width: 200px;">10000 coders</p>
+</div>
+
+3.SKEW PROPERTY :-
+
+<div class="c"> 
+    <liable for="tr5"></liable>
+    X- AXIS:-<br>
+1.<input type="radio" name="name5" id="tr5">
+<p class="tr5" style="background-color: burlywood; height: 150px; width:150px;">ALWAYS</p><br>
+
+<liable for="tr6"></liable>
+2.<input type="radio" name="name6" id="tr6">
+<p class="tr6" style="background-color: burlywood; height: 150px; width:150px;">ALWAYS</p>
+
+</div>
+<div class="d">
+    3.ROTATE PROPERTY :-
+
+    <div class="d"> 
+        <liable for="tr7"></liable>
+        X- AXIS:-<br>
+    1.<input type="radio" name="name7" id="tr7">
+    <p class="tr7" style="background-color: rgb(157, 135, 222); height: 150px; width:150px;">TO</p><br>
+    
+    <liable for="tr8"></liable>
+    2.<input type="radio" name="name6" id="tr8">
+    <p class="tr8" style="background-color: rgb(156, 101, 29); height: 150px; width:150px;">TO</p>
+    
+    </div>
+</div>
+
+</div>
+</body>
+</html>
